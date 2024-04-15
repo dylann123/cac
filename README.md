@@ -1,4 +1,4 @@
-# CS Capstone Project
+# CAC Project
 
 Requirements:
 
