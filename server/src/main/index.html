@@ -1,5 +1,55 @@
 <!DOCTYPE html>
-<form action="/upload" method="POST" enctype="multipart/form-data">
-    <input type="file" name="image" />
-    <button type="submit">Upload</button>
-</form>
+<html>
+    <head>
+        <title>Eye Disease Detector</title>
+        <link rel="icon" type="image/x-icon" href=".\images\image0_0.ico">
+        <link rel="stylesheet" href="styles.css">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous">
+    </head>
+    <body class="main">
+        <center>
+            <h1 class="heading">What is the purpose of NAME_PLACEHOLDER</h1>
+            <br>
+            <br>
+            <img src=".\images\IMG_0839.jpg" alt="Girl in a jacket" width="600"
+                height="400">
+            <br>
+            <br>
+            <br>
+            
+            <t>The purpose of NAME_PLACEHOLDER is to be able to make the access
+                to
+                instant feeback on diseases related to the eye. NAME_PLACEHOLDER
+                aims to give feedback to the user based on a image that can be
+                taken
+                from your phone.
+
+            </t>
+            <br>
+            <br>
+            <br>
+
+            <form action="/upload" method="POST" enctype="multipart/form-data">
+                <input type="file" id="file-upload" name="image" hidden/>
+                <label class="label" for="file-upload">Upload Eye Image</label>
+
+                <button class="submitimg" type="submit">Submit</button>
+            </form>
+
+            <script
+                src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+                integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+                crossorigin="anonymous"></script>
+            <script
+                src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+                integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+                crossorigin="anonymous"></script>
+
+
+            </center>
+    </body>
+</html>
